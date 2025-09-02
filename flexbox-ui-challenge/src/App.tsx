@@ -7,6 +7,8 @@ import LongRactangle from './componants/longRactangle'
 import Bluecircle from './componants/blue-circle'
 import YellowRectangle  from './componants/yellowRectangle'
 import BlueRactangle from './componants/blueRactangle'
+import PinkCircle from './componants/pinkCircle'
+import RedCircle from './componants/redCircle'
 
 function App() {
 
@@ -16,13 +18,13 @@ function App() {
         <Rectangle />
         <div className="first-container">
           <div className="upper">
-            <Circle />
+            <RedCircle />
             <Square />
             <Rectangle2 />
           </div>
           <div className="lower">
             <BlueRactangle />
-            <Circle />
+            <PinkCircle />
             <Bluecircle />
           </div>
         </div>
